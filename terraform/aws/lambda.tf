@@ -56,3 +56,6 @@ resource "aws_lambda_function" "analysis_lambda" {
     yor_trace            = "f7d8bc47-e5d9-4b09-9d8f-e7b9724d826e"
   }
 }
+
+
+
