@@ -39,4 +39,3 @@ resource "aws_elb" "weblb" {
   })
 }
 
-

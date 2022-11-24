@@ -58,4 +58,3 @@ resource "aws_lambda_function" "analysis_lambda" {
 }
 
 
-

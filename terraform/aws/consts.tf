@@ -48,4 +48,3 @@ variable "neptune-dbname" {
   default     = "neptunedb1"
 }
 
-

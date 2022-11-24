@@ -422,4 +422,3 @@ output "db_endpoint" {
 }
 
 
-

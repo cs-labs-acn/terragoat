@@ -307,4 +307,3 @@ output "public_subnet2" {
   value       = aws_subnet.web_subnet2.id
 }
 
-

@@ -144,4 +144,3 @@ resource "aws_rds_cluster" "app9-rds-cluster" {
 }
 
 
-

@@ -42,4 +42,3 @@ resource "aws_elasticsearch_domain_policy" "monitoring-framework-policy" {
   access_policies = data.aws_iam_policy_document.policy.json
 }
 
-
