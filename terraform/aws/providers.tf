@@ -5,10 +5,11 @@ provider "aws" {
 }
 
 provider "aws" {
-  alias      = "plain_text_access_keys_provider"
-  region     = "us-west-1"
-  access_key = "AKIAIOSFODNN7EXAMPLE"
-  secret_key = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  alias  = "cross_account_provider"
+  region = "us-west-1"
+  assume_role {
+    role_arn = var.cross_account_role_arn
+  }
 }
 
 terraform {
